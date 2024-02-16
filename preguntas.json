@@ -1,0 +1,170 @@
+{
+    "php": [
+        {
+            "preguntas": [
+                "¿Cómo puedo crear una variable en PHP?",
+                "¿Cómo puedo imprimir datos en PHP?",
+                "¿Cómo puedo leer datos del usuario en PHP?",
+                "¿Cómo puedo hacer una operación matemática en PHP 1?",
+                "¿Cómo puedo hacer una operación matemática en PHP 2?",
+                "¿Cómo puedo hacer una operación matemática en PHP 3?"
+                
+            ],
+            "respuestas": [
+                {
+                    "opciones": [
+                        "$miVariable",
+                        "echo",
+                        "$_GET['nombreUsuario']",
+                        "$resultado = 5 + 5;"
+                    ],
+                    "correcta": "$miVariable"
+                },
+                {
+                    "opciones": [
+                        "$miVariable = 10;",
+                        "$miVariable = 5;",
+                        "echo $miVariable;",
+                        "$otraVariable = 3;"
+                    ],
+                    "correcta": "echo $miVariable;"
+                },
+                {
+                    "opciones": [
+                        "$miVariable = 10;",
+                        "echo $miVariable;",
+                        "$miVariable = 5;",
+                        "$otraVariable = 3;"
+                    ],
+                    "correcta": "$miVariable = 10;"
+                },
+                {
+                    "opciones": [
+                        "$miVariable = 5;",
+                        "$otraVariable = 3;",
+                        "$resultado = $miVariable + $otraVariable;",
+                        "echo $resultado;"
+                    ],
+                    "correcta": "$miVariable = 5;"
+                },{
+                    "opciones": [
+                        "$miVariable = 5;",
+                        "$otraVariable = 3;",
+                        "$resultado = $miVariable + $otraVariable;",
+                        "echo $resultado;"
+                    ],
+                    "correcta": "$miVariable = 5;"
+                }
+                ,{
+                    "opciones": [
+                        "$miVariable = 5;",
+                        "$otraVariable = 3;",
+                        "$resultado = $miVariable + $otraVariable;",
+                        "echo $resultado;"
+                    ],
+                    "correcta": "$miVariable = 5;"
+                }
+            ]
+        }
+    ],
+    "java": [
+        {
+            "preguntas": [
+                "¿Cómo se declara una variable en Java?",
+                "¿Cómo se imprime un mensaje en la consola en Java?",
+                "¿Cómo se lee un dato del usuario en Java?",
+                "¿Cómo se realiza una operación matemática en Java?"
+            ],
+            "respuestas": [
+                {
+                    "opciones": [
+                        "int miVariable;",
+                        "System.out.println();",
+                        "Scanner scanner = new Scanner(System.in);",
+                        "int resultado = 5 + 5;"
+                    ],
+                    "correcta": "int miVariable;"
+                },
+                {
+                    "opciones": [
+                        "int miVariable = 10;",
+                        "System.out.print();",
+                        "Scanner scanner = new Scanner(System.out);",
+                        "int otraVariable = 3;"
+                    ],
+                    "correcta": "System.out.println();"
+                },
+                {
+                    "opciones": [
+                        "int miVariable = 10;",
+                        "Scanner scanner = new Scanner(System.in);",
+                        "System.in.read();",
+                        "int otraVariable = 3;"
+                    ],
+                    "correcta": "Scanner scanner = new Scanner(System.in);"
+                },
+                {
+                    "opciones": [
+                        "int miVariable = 5;",
+                        "int otraVariable = 3;",
+                        "int resultado = miVariable + otraVariable;",
+                        "System.out.println(resultado);"
+                    ],
+                    "correcta": "int resultado = miVariable + otraVariable;"
+                }
+            ]
+        }
+    ],
+    
+    "javascript": [
+        {
+            "preguntas": [
+                "¿Cómo se declara una variable en JavaScript?",
+                "¿Cómo se muestra un mensaje en la consola en JavaScript?",
+                "¿Cómo se lee un dato del usuario en JavaScript?",
+                "¿Cómo se realiza una operación matemática en JavaScript?"
+            ],
+            "respuestas": [
+                {
+                    "opciones": [
+                        "let miVariable;",
+                        "console.log();",
+                        "prompt();",
+                        "let resultado = 5 + 5;"
+                    ],
+                    "correcta": "let miVariable;"
+                },
+                {
+                    "opciones": [
+                        "let miVariable = 10;",
+                        "console.print();",
+                        "prompt('Ingrese un valor:');",
+                        "let otraVariable = 3;"
+                    ],
+                    "correcta": "console.log();"
+                },
+                {
+                    "opciones": [
+                        "let miVariable = 10;",
+                        "prompt('Ingrese un valor:');",
+                        "confirm();",
+                        "let otraVariable = 3;"
+                    ],
+                    "correcta": "prompt('Ingrese un valor:');"
+                },
+                {
+                    "opciones": [
+                        "let miVariable = 5;",
+                        "let otraVariable = 3;",
+                        "let resultado = miVariable + otraVariable;",
+                        "console.log(resultado);"
+                    ],
+                    "correcta": "let resultado = miVariable + otraVariable;"
+                }
+            ]
+        }
+    ]
+
+
+
+}
