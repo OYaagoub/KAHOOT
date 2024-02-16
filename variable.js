@@ -6,3 +6,6 @@ count=0;
 respuestaCorecta=null;
 timeout=null;
 time=10;
+username=null;
+mal=0;
+bien=0;

@@ -12,12 +12,16 @@ $(document).ready(function () {
             $("#ganados").append("<span>"+"Has Ganado +"+pointsCorrent+"</span>");
             points+=pointsCorrent;
             $("#totalPoints").text("Puntos: "+points);
+            bien++;
+            $("#bien").text("Bien : "+bien);
             if(count<len){
                 $("#ganados").append('<button type="button" class="btn btn-info ml-4" onclick="startQuiz()">Seguiente Pregunta</button>');
                 
                
             }
         }else{
+            mal++;
+            $("#mal").text("fallos : "+mal);
             $("#ganados").text("respuesta falsa Desafortunadamente");
             if(count<len){
                 $("#ganados").append('<button type="button" class="btn btn-info ml-4" onclick="startQuiz()">Seguiente Pregunta</button>');

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kahoot</title>
+    <style>
+        .disabled {
+            opacity: .4;
+        }
+
+        .block {
+            display: block !important;
+        }
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class=""
+        style="display: none;height: 100vh;width: 100vw; position: absolute; top: 0;left: 0;z-index: 122222;background: rgba(33, 40, 34, 0.4);"
+        id="load"></div>
+    <h1 class="text-center text-primary-emphasis ">Kahoot</h1>
+    <h3 class="text-center text-info" id="user"></h3>
+    <div class="container " style="margin-top: 60px;">
+        <div class="row" id="cursos">
+            <!-- <div class="col">
+                <div class="card ">
+                    <img src="java.jpg" class="img-thumbnail" style="height: 200px;" alt="">
+                    
+                    <button class="btn btn-primary">Start</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card ">
+                    <img src="php.png" class="img-thumbnail" style="height: 200px;" alt="">
+                    
+                    <button id="start" class="btn btn-primary">Start</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card ">
+                    <img class="img-thumbnail" src="javascript.jpeg"  style="height: 200px;" alt="">
+                    
+                    <button id="start" class="btn btn-primary">Start</button>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <div class="position-absolute top-0 end-1 p-3 text-center text-danger fw-bolder border rounded-5 align-items-center d-flex justify-content-center"
+        style="width: 130px;height: 100px;"> <span id="totalPoints">puntos : 0</span></div>
+
+    <div class="position-absolute top-0 end-0 p-3 text-center text-danger fw-bolder border rounded-5 align-items-center d-flex justify-content-center"
+        style="width: 100px;height: 100px;"><span id="time">10</span></div>
+    <div id="kahootPreguntas" class="container position-relative " style="height: 400px;">
+        <!-- <div class="row">
+            <div class="col text-center m-4 ">
+                <h2 class="">¿hola?</h2>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col card text-center m-1 p-2 bg-success" role="button" data-id="0">0</div>
+            <div class="col card text-center m-1 p-2 bg-danger" role="button" data-id="1">2</div>
+        </div>
+        <div class="row mt-4">
+            <div class="col card text-center m-1 p-2 bg-warning" role="button" data-id="0">3</div>
+            <div class="col card text-center m-1 p-2 bg-primary" role="button" data-id="1">4</div>
+        </div> -->
+
+    </div>
+    <div class="w-100 text-center fw-bolder" id="ganados"></div>
+    <div class="w-100 text-center fw-bolder mt-4"><span class="bg-danger rounded-2 p-3" id="mal"></span><span
+            class="bg-success rounded-2 p-3" id="bien"></span></div>
+    <button type="button" class="btn btn-info ml-4" onclick="location.reload()">Volver al Inicio</button>
+
+</body>
+<script src="count.js"></script>
+<script src="variable.js"></script>
+<script src="loadCursos.js"></script>
+<script src="loadPreguntas.js"></script>
+<script src="openCurse.js"></script>
+<script src="controlQuestions.js"></script>
+<script src="count.js"></script>
+<script src="user.js"></script>
+
+</html>
